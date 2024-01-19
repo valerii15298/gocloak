@@ -1344,7 +1344,7 @@ type GetEventsParams struct {
 	First     *int32   `json:"first,string,omitempty"`
 	IPAddress *string  `json:"ipAddress,omitempty"`
 	Max       *int32   `json:"max,string,omitempty"`
-	Type      []string `json:"type,omitempty"`
+	Type      *string `json:"type,omitempty"`
 	UserID    *string  `json:"user,omitempty"`
 }
 
